@@ -4,6 +4,7 @@ apt-get update
 
 apt-get install vim -y
 
+<<<<<<< Updated upstream
 apt-get install zsh -y
 
 chsh -s /bin/zsh
@@ -25,6 +26,8 @@ apt-get update
 
 apt-get install vim -y
 
+=======
+>>>>>>> Stashed changes
 
 # init zsh and oh my zsh
 
@@ -32,7 +35,11 @@ apt-get install zsh -y
 apt-get install git -y
 chsh -s /bin/zsh
 apt-get install wget -y
+<<<<<<< Updated upstream
 wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+=======
+# wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+>>>>>>> Stashed changes
 zsh
 
 # 🖼️ install the GUI program
