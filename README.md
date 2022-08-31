@@ -6,11 +6,11 @@
 * linux /proc 文件详解 (https://jyywiki.cn/OS/2022/labs/M1)
 * c 语言 file 操作 (https://blog.csdn.net/zhanghaiyang9999/article/details/107032563)
 * c 语言 file dir 操作 (https://blog.csdn.net/dream_allday/article/details/75243818)
-* 
+  
 
  ## 实验目的 🎯
  
- * 实现ps 命令
+ * 实现pstree 命令
  * Linux 系统中可以同时运行多个程序。运行的程序称为进程。除了所有进程的根之外，每个进程都有它唯一的父进程，你的任务就是把这棵树在命令行中输出。你可以自由选择展示树的方式 (例如使用缩进表示父子关系，这是最容易的)。
 ## 预期结果
 * `pstree [OPTION]…`
